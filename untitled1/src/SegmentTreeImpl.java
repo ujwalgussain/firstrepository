@@ -36,23 +36,20 @@ class SegmentTree
             segmentTree[node] = segmentTree[2*node]+segmentTree[2*node+1];
         }
     }
-    int findPosInTree(int pos_in_arr){
-        int low =0, high = arr.length;
-        while(low<=high)
+    int updateQuery(int pos_in_arr,int new_value, int node, int start, int end){
+        System.out.println("");
+        if(start==end)
         {
-            int mid = (low+high)/2;
-            if(pos_in_arr==mid)
-                return mid;
-            else
-                if(pos_in_arr>mid)
-                {
-                    low =mid+1;
-                }
-                else
-                {
-                    high = mid-1;
-                }
+            int old_value = segmentTree[node];
+            segmentTree[node] = new_value;
+            System.out.println("old -> " + old_value + " node "+" return diff " + (new_value-old_value));
+            return new_value-old_value;
         }
+        int mid = (start+end)/2;
+        int diff =  (mid<=pos_in_arr)?updateQuery(pos_in_arr,new_value,2*node,start,mid)
+                :updateQuery(pos_in_arr,new_value,2*node+1,mid+1,end);
+        segmentTree[node]+=diff;
+        return diff;
     }
 }
 public class SegmentTreeImpl {
@@ -61,5 +58,8 @@ public class SegmentTreeImpl {
         int[] arr = new int[]{1,2,3,4,5,6};
         SegmentTree s = new SegmentTree(arr);
         System.out.println("Seg Tree -> " + Arrays.toString(s.getSegmentTree()));
+        s.updateQuery(1,10,1,0,arr.length-1);
+        System.out.println("Seg Tree -> " + Arrays.toString(s.getSegmentTree()));
+
     }
 }
