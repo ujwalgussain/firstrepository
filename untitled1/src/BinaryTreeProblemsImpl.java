@@ -45,6 +45,7 @@ public class BinaryTreeProblemsImpl {
             }
         }
     }
+    //Needs improvement
     Node getRightMostNode(Node temp){
         System.out.println("temp " + temp.data);
         if(temp.right!=null)
