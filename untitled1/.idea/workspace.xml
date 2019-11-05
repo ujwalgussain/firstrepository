@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbf3807c-7426-4be2-af20-fe28b4e54971" name="Default Changelist" comment="changes">
-      <change afterPath="$PROJECT_DIR$/src/ChefAndInterestingSubsequencesImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ComparartorWithTwoParametersImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ComparartorWithTwoParametersImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChefAndInterestingSubsequencesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChefAndInterestingSubsequencesImpl.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

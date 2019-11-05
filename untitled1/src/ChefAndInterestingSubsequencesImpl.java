@@ -113,3 +113,55 @@ public class ChefAndInterestingSubsequencesImpl {
         }
     }
 }
+/*class test
+{
+    static TreeMap<Integer,Integer> map = new TreeMap<>();
+    public static int iterative(int arr[], int k)
+    {
+        map = new TreeMap<>();
+        int n = arr.length;
+        int pow_n = 1<<n;
+        for (int i=0;i<pow_n;i++)
+        {
+            int sum= 0,len=0;
+            for(int j=0;j<n;j++)
+            {
+                if((i & (1<<j))>0)
+                {
+                    sum+=arr[j];len++;
+                }
+                if(len>k)
+                    break;
+            }
+            if(len == k){
+                map.put(sum, map.containsKey(sum)?map.get(sum)+1:1);
+            }
+        }
+        return map.firstEntry().getValue();
+    }
+    public static void main (String[] args) throws java.lang.Exception
+    {
+        Scanner sc = new Scanner(System.in);
+        int test = 0;
+        if(sc.hasNext())
+            test = sc.nextInt();
+        int i =-1;
+        while(++i<test)
+        {
+            int n = 0;
+            if(sc.hasNext())
+                n = sc.nextInt();
+            int k = 0;
+            if(sc.hasNext())
+                k=sc.nextInt();
+            int arr[] = new int[n];
+            int j = -1;
+            while(++j<n)
+            {
+                if(sc.hasNext())
+                    arr[j]=sc.nextInt();
+            }
+            System.out.println(iterative(arr,k));
+        }
+    }
+}*/
