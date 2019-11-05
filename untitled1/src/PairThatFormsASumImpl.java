@@ -1,5 +1,5 @@
 public class PairThatFormsASumImpl {
-    public static void findPair(int arr[], int given_sum)
+    public static void findPairSortedApproach(int arr[], int given_sum)
     {
         int i=arr.length-1,j=0;
         while(i>=0&&j<arr.length)
@@ -25,8 +25,9 @@ public class PairThatFormsASumImpl {
         }
 
     }
+
     public static void main(String args[])
     {
-        findPair(new int[]{1,2,3,4,5},6);
+        findPairSortedApproach(new int[]{1,2,3,4,5},6);
     }
 }

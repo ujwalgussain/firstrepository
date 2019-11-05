@@ -45,6 +45,25 @@ public class BinaryTreeProblemsImpl {
             }
         }
     }
+    //Needs improvement
+    Node getRightMostNode(Node temp){
+        System.out.println("temp " + temp.data);
+        if(temp.right!=null)
+        {
+            System.out.println("Go Right");
+            return getRightMostNode(temp.right);
+        }
+
+        else
+        if (temp.left !=null)
+        {
+            System.out.println("Go Left");
+            return getRightMostNode(temp.left);
+        }
+        System.out.println("Return " + temp.data);
+        return temp;
+
+    }
     void displayLOT()
     {
         if(root == null)
