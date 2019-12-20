@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbf3807c-7426-4be2-af20-fe28b4e54971" name="Default Changelist" comment="changes">
-      <change beforePath="$PROJECT_DIR$/src/ChefAndInterestingSubsequencesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChefAndInterestingSubsequencesImpl.java" afterDir="false" />
+    <list default="true" id="dbf3807c-7426-4be2-af20-fe28b4e54971" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/LongestIncreasingSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled1/BinaryTreeProblemsImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled1/BinaryTreeProblemsImpl.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +41,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ChefAndInterestingSubsequencesImpl">
+  <component name="RunManager" selected="Application.LongestIncreasingSubsequence">
     <configuration name="BinaryTreeProblemsImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinaryTreeProblemsImpl" />
       <module name="untitled1" />
@@ -61,6 +63,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LongestIncreasingSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LongestIncreasingSubsequence" />
+      <module name="untitled1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SegmentTreeImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SegmentTreeImpl" />
       <module name="untitled1" />
@@ -70,6 +79,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestIncreasingSubsequence" />
         <item itemvalue="Application.ChefAndInterestingSubsequencesImpl" />
         <item itemvalue="Application.BinaryTreeProblemsImpl" />
         <item itemvalue="Application.LongestCommonSubSequenceImpl" />
@@ -102,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572528389042</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="changes">
+      <created>1572959156495</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1572959156495</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
