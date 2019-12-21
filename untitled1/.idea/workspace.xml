@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbf3807c-7426-4be2-af20-fe28b4e54971" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/PartitioningArrayImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,7 +40,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestIncreasingSubsequence">
+  <component name="RunManager" selected="Application.PartitioningArrayImpl">
     <configuration name="BinaryTreeProblemsImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinaryTreeProblemsImpl" />
       <module name="untitled1" />
@@ -68,8 +69,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SegmentTreeImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SegmentTreeImpl" />
+    <configuration name="PartitioningArrayImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PartitioningArrayImpl" />
       <module name="untitled1" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -77,11 +78,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PartitioningArrayImpl" />
         <item itemvalue="Application.LongestIncreasingSubsequence" />
         <item itemvalue="Application.ChefAndInterestingSubsequencesImpl" />
         <item itemvalue="Application.BinaryTreeProblemsImpl" />
         <item itemvalue="Application.LongestCommonSubSequenceImpl" />
-        <item itemvalue="Application.SegmentTreeImpl" />
       </list>
     </recent_temporary>
   </component>
@@ -124,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576847760072</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="changes">
+      <created>1576866032971</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1576866032971</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
