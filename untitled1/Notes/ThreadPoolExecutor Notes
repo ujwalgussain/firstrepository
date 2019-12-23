@@ -1,0 +1,13 @@
+TPE:
+creating a thread on demand may create memory and performance problems.
+hence use TPE.
+Java 1.5 onwards, threadPool framework was introduced to implement thread pools.
+TP Framework is also known as Executor Framework.
+
+Create a TP:
+    ExecutorService ex = Executors.newFixedThreadPool(3);
+We can submit a runnable job using:
+    ex.submit(job);
+
+We can shutdown ExecutorService by:
+    ex.shutdown();
