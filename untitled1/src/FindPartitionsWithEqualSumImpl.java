@@ -1,7 +1,12 @@
 import java.util.Arrays;
 
 public class FindPartitionsWithEqualSumImpl {
-
+    /*Assumptions:
+    * We use a prefix Sum Array here.
+    * For any K, The totalsum of the array must be divisible by K eg: K=3 and totalsum=15.If not then array cannot be divided
+    * pos indicates the end of the last partition. It is used to check Sum for Existing Partition
+    * temp counts no of partitions
+    *  */
     static boolean KpartitionsPossible(int arr[], int n, int K)
     {
         // Creating and filling prefix sum array
